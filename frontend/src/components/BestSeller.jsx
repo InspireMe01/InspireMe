@@ -25,7 +25,7 @@ const BestSeller = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium delectus quos, vitae reiciendis repudiandae
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-6">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-6 items-center">
         {bestSeller.length > 0 ? (
           bestSeller.map((item, index) => (
             <ProductItem key={index} id={item._id} image={item.image} name={item.name} price={item.price} />
